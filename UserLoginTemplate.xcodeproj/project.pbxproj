@@ -18,6 +18,7 @@
 		2820526D1F6DA253009AE71F /* RegisterUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2820526C1F6DA253009AE71F /* RegisterUserViewController.swift */; };
 		2820526F1F6DF8D4009AE71F /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2820526E1F6DF8D4009AE71F /* HomePageViewController.swift */; };
 		282052711F6EDC53009AE71F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 282052701F6EDC53009AE71F /* GoogleService-Info.plist */; };
+		28EC2F971F70B6E000B75524 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EC2F961F70B6E000B75524 /* ForgotPasswordViewController.swift */; };
 		C7AE6065F5E0A10B26911C5F /* Pods_UserLoginTemplateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA78657BFA80A94FECA1514C /* Pods_UserLoginTemplateTests.framework */; };
 		EC225D487B42EC92BEFCCD8C /* Pods_UserLoginTemplateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F023794C3A15B2F90FA59282 /* Pods_UserLoginTemplateUITests.framework */; };
 		ECED428CEDB814B6DAD6E8E3 /* Pods_UserLoginTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6FBF2D6D57F98D00E02D00 /* Pods_UserLoginTemplate.framework */; };
@@ -58,6 +59,7 @@
 		2820526C1F6DA253009AE71F /* RegisterUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterUserViewController.swift; sourceTree = "<group>"; };
 		2820526E1F6DF8D4009AE71F /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		282052701F6EDC53009AE71F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		28EC2F961F70B6E000B75524 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		399639F2EAA6CC8F55D3837C /* Pods-UserLoginTemplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserLoginTemplateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserLoginTemplateTests/Pods-UserLoginTemplateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4373BE79FD8E09A48A74857C /* Pods-UserLoginTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserLoginTemplate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserLoginTemplate/Pods-UserLoginTemplate.debug.xcconfig"; sourceTree = "<group>"; };
 		6B6FBF2D6D57F98D00E02D00 /* Pods_UserLoginTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserLoginTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +144,7 @@
 				2820526A1F6D9FC0009AE71F /* SignInViewController.swift */,
 				2820526C1F6DA253009AE71F /* RegisterUserViewController.swift */,
 				2820526E1F6DF8D4009AE71F /* HomePageViewController.swift */,
+				28EC2F961F70B6E000B75524 /* ForgotPasswordViewController.swift */,
 			);
 			path = UserLoginTemplate;
 			sourceTree = "<group>";
@@ -479,6 +482,7 @@
 			files = (
 				2820526D1F6DA253009AE71F /* RegisterUserViewController.swift in Sources */,
 				2820523F1F6D92BF009AE71F /* ViewController.swift in Sources */,
+				28EC2F971F70B6E000B75524 /* ForgotPasswordViewController.swift in Sources */,
 				2820523D1F6D92BF009AE71F /* AppDelegate.swift in Sources */,
 				2820526F1F6DF8D4009AE71F /* HomePageViewController.swift in Sources */,
 				2820526B1F6D9FC0009AE71F /* SignInViewController.swift in Sources */,
@@ -734,6 +738,7 @@
 				282052631F6D92BF009AE71F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		282052641F6D92BF009AE71F /* Build configuration list for PBXNativeTarget "UserLoginTemplateTests" */ = {
 			isa = XCConfigurationList;
@@ -742,6 +747,7 @@
 				282052661F6D92BF009AE71F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		282052671F6D92BF009AE71F /* Build configuration list for PBXNativeTarget "UserLoginTemplateUITests" */ = {
 			isa = XCConfigurationList;
@@ -750,6 +756,7 @@
 				282052691F6D92BF009AE71F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

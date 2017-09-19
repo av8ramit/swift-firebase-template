@@ -58,15 +58,14 @@ class SignInViewController: UIViewController {
         self.present(registerViewController, animated: true)
     }
 
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func forgotPasswordButtonTapped(_ sender: Any) {
+        // Serve the forgot password view controller
+        let forgotPasswordViewController = self.storyboard?.instantiateViewController(withIdentifier:
+            "ForgotPasswordViewController") as! ForgotPasswordViewController
+        
+        self.present(forgotPasswordViewController, animated: true)
     }
-    */
 
     func displayMessage(userMessage:String) -> Void {
         DispatchQueue.main.async
